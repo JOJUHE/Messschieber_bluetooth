@@ -45,4 +45,5 @@ async def main():
                 print(f"Could not connect to device with info: {device}")
                 print(f"Error: {e}")
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
